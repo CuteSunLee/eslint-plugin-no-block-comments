@@ -1,0 +1,30 @@
+{
+    "name": "eslint-plugin-no-block-comments",
+    "version": "0.0.0",
+    "description": "no block comments in javascript",
+    "keywords": [
+        "eslint",
+        "eslintplugin",
+        "eslint-plugin"
+    ],
+    "author": "yayaya",
+    "main": "lib/index.js",
+    "scripts": {
+        "test": "mocha tests --recursive"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/alex-shnayder/eslint-plugin-no-empty-blocks.git"
+    },
+    "dependencies": {
+        "requireindex": "~1.1.0"
+    },
+    "devDependencies": {
+        "eslint": "~3.9.1",
+        "mocha": "^3.1.2"
+    },
+    "engines": {
+        "node": ">=0.10.0"
+    },
+    "license": "ISC"
+}
